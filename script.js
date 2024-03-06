@@ -101,12 +101,12 @@ function submitSurveyAnswers() {
     localStorage.setItem('surveyAnswers', JSON.stringify(answers));
 
     // Chuyển hướng đến trang kết quả
-    window.location.href = 'https://github.com/linhtran6065/web-th1/result.html';
+    window.location.href = 'result.html';
 }
 
 function saveSurveyData() {
     localStorage.setItem("surveyCompleted", true);
-    window.location.href = 'https://github.com/linhtran6065/web-th1/result.html';
+    window.location.href = 'result.html';
 }
 
 function displayResults() {
