@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-    if (window.location.pathname.includes("index.html") || window.location.pathname === "/") {
+    if (window.location.pathname.includes("index.html") || window.location.pathname === "https://linhtran6065.github.io/web-th1/") {
+        console.log("yes")
         const bioForm = document.getElementById("bio-form");
         if (bioForm) {
             bioForm.addEventListener("submit", function(event) {
@@ -101,12 +102,12 @@ function submitSurveyAnswers() {
     localStorage.setItem('surveyAnswers', JSON.stringify(answers));
 
     // Chuyển hướng đến trang kết quả
-    window.location.href = 'result.html';
+    window.location.href = 'https://github.com/linhtran6065/web-th1/result.html';
 }
 
 function saveSurveyData() {
     localStorage.setItem("surveyCompleted", true);
-    window.location.href = 'result.html';
+    window.location.href = 'https://github.com/linhtran6065/web-th1/result.html';
 }
 
 function displayResults() {
