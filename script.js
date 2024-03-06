@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
+    console.log("location:", window.location.pathname)
     if (window.location.pathname.includes("index.html") || window.location.pathname === "https://linhtran6065.github.io/web-th1/") {
-        console.log("yes")
         const bioForm = document.getElementById("bio-form");
         if (bioForm) {
             bioForm.addEventListener("submit", function(event) {
