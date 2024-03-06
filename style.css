@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333; 
+    background-color: #fff; 
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center; 
+    color: #D32F2F; 
+}
+
+h3 {
+    margin-top: 0; 
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#info-form {
+    background-color: #fff3f3;
+    width: 50%; 
+    margin: 0 auto;
+    padding: 20px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    box-sizing: border-box; 
+}
+
+#info-form input[type="text"],
+#info-form input[type="date"] {
+    width: calc(100% - 20px); 
+    padding: 10px; 
+    margin: 10px 0; 
+    box-sizing: border-box; 
+}
+
+#info-form label {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+#info-form button {
+    display: block; 
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: #D32F2F; 
+    color: white; 
+    cursor: pointer; 
+}
+
+#survey-form {
+    background-color: #fff3f3; 
+}
+
+.question-container textarea {
+    width: calc(100% - 30px); 
+    height: 100px; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-bottom: 20px; 
+}
+
+input[type=text], input[type=date] {
+    width: 100%; 
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #D32F2F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B71C1C; 
+}
+
+
+@media screen and (max-width: 768px) {
+    input[type=text], input[type=date], textarea {
+        width: 100%;
+    }
+    #result {
+        width: 95%; 
+    }
+}
+
+.form-container {
+    width: 80%; 
+    margin: 0 auto;
+    padding: 20px; /
+}
+
+#result {
+    width: 80%; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    background-color: #fff3f3
+}
+.question-container {
+    background-color: #fff; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.question-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; 
+}
+
+.question-container input[type="radio"],
+.question-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.question-container textarea {
+    width: 100%; 
+    border-radius: 5px; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+}
+
+#submitSurvey {
+    display: block; 
+    margin: 20px auto; 
+    background-color: #D32F2F;
+    color: white; 
+    padding: 10px 20px;
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+
+#submitSurvey:hover {
+    background-color: #B71C1C; 
+}
