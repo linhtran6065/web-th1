@@ -33,7 +33,7 @@ function saveBioData() {
     localStorage.setItem("idnumber", idnumber);
     localStorage.setItem("address", address);
 
-    window.location.href = 'https://github.com/linhtran6065/web-th1/survey.html';
+    window.location.href = 'https://github.com/linhtran6065/web-th1/result.html';
 }
 
 function generateSurveyQuestions(form) {
